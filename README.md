@@ -16,7 +16,7 @@ Agila metoden, med samma analogi skulle vara en väg med 12 filer. Plötsligt fl
 I analogin är en bil en "ticket" eller en funktion som man arbetar med i sitt team. 
 Vägen (filerna) representerar olika utvecklare, team eller utvecklingsprcesser. 
 I vattenfallsmetoden har man bara en fil (på vägen) vilket gör att utveklingsprocessen blir linjär. En sak i taget helt enkelt. Slutprodukten testas genomgående. 
-I agil metodik har man flera filer och flera arbetsmoment slutförs parallellt. Varje modul testas innan den levereras.
+I agil metodik har man flera filer och flera arbetsmoment kan slutföras parallellt. Varje modul testas innan den levereras.
 
 ### Reflektion och exempel
 Jag skulle föredra att arbeta enligt den agila metoden. Projektet blir inte lika känsligt för oväntade hinder och det finns goda möjligheter till flexibilitet. 
