@@ -7,10 +7,10 @@ I förra veckans övningsuppgift liknade jag frågan vid en middagsbjudning. Fö
 ### Vattenfallsmetoden
 Vattenfallsmetoden kan liknas vid en väg som bara har en fil. Bilarna kör efter varandra, tryggt och fint och allt flyter på bra. Dock tar det ganska lång tid innan alla 12´000 bilar har passerat. Om det skulle hända något, någon olycka eller liknande så stannar hela kön upp och *ingen* bil kommer fram förens olyckan är uppstädad och vägen fri igen. 
 Om någon bil vill ansluta till vägen så blir alla bilar bakom drabbade och ledtiden blir genast längre. (Litet utrymme för flexibilitet)
-Fördelen är att alla bilar kommer fram i tur och ordning och det blir egentligen ingen oreda. 
+Fördelen är att alla bilar kommer fram i tur och ordning och det blir egentligen ingen oreda. Samtliga bilar gås igenom på parkeringen när alla bilar har anlänt. (Testning av färdig produkt) Om en bil inte skulle vara godkänd så skickas den tillbaka. 
 
 ### Agil metodik
-Agila metoden, med samma analogi skulle vara en väg med 12 filer. Plötsligt flyter trafiken på 12 gånger snabbare. Om det sker en olycka i en fil så stannar DEN filen upp, men de övriga 11 flyter på bra. Om någon bil vill ansluta till motorvägen, så är det inga problem. Den filen som bilen ansluter till kanske går lite långsammare, men övriga 11 filer flyter på bra. (Hög flexibilitet)
+Agila metoden, med samma analogi skulle vara en väg med 12 filer. Plötsligt flyter trafiken på 12 gånger snabbare. Om det sker en olycka i en fil så stannar DEN filen upp, men de övriga 11 flyter på bra. Om någon bil vill ansluta till motorvägen, så är det inga problem. Den filen som bilen ansluter till kanske går lite långsammare, men övriga 11 filer flyter på bra. (Hög flexibilitet) Alla bilar testas innan dom tillåts parkera på parkeringen. (Varje modul testas innan leverans)
 
 ### Slutsats
 I analogin är en bil en "ticket" eller en funktion som man arbetar med i sitt team. 
