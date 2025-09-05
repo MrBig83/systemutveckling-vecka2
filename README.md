@@ -41,8 +41,10 @@ MEN, det finns en helt underbar och fantastisk skillnad. Historik. Om du arbetar
 Förutom historiken finns även ytterligare en fantastisk funktion. Commit-meddelande. *God all mighty, this is good!* Du kan spara dina ändringar i en commit och samtidigt skriva en beskrivning om vad ändringarna gör. På så vis behöver du inte komma ihåg vilken commit som innehåller en viss ändring. - Det står ju i commit-meddelandet. 
 
 ## 3. **Vad innebär samarbete med GitHub? Vad är pull requests, branches och merge?**
-Detta svaret kommer kunna bli hur långt som helst, så jag fortsätter här imorgon, Fredag. 
-- *Samarbete* Agilt, Olika branches för olika tickets, Be en kollega dra hem en branch och kolla koden, En kollega kör backend i en branch, en kör api i en branch och en kör frontend i en branch (parallellt). Koden kan granskas av kollegor innan man gör en PR. Och såklart, versionshistoriken. 
-- *Pull Request (PR)* är som en pull fast man requestar GitHub att göra en pull. (Dvs. uppdatera main (eller aktuell Origin)) på GitHub. PR används ofta synonymt med merge på GitHub. (Gäller inte lokalt) Man requestar att ends ändringar mergeas med main och det delade repot uppdateras med ändringarna. 
+- *Samarbete.* I GitHub (Git) är det väldigt enkelt att samarbeta på samma projekt. Folk i teamet skapar egna brancher och då har alla sin egen sandlåda där man kan utveckla det man har i uppgift att utveckla. På så vis kan teamet utveckla flera komponenter parallellt. Om man kör fast så kan man även pusha sin branch till GitHub och låta en kollega ta hem den branchen lokalt, så kan kollegan kika på koden. Kollegan som skall kika på koden måste inte ta hem branchen lokalt utan kan kika på koden på GitHub också, men för att provköra koden så måste den existera lokalt. Sen är även samarbetet genom code-review väldigt enkelt genom GitHub. Man slänger upp sin kod och gör en PR som sedan (med rätt inställningar i projektet på GitHub) måste gås igenom av andra innan den kan mergeas. 
+
+- *Pull Request (PR)* är som en pull fast åt andra hållet; man requestar GitHub att göra en pull. (Dvs. uppdatera main (eller aktuell Origin)) på GitHub. PR används ofta synonymt med *merge till huvudbranch* på GitHub. (Gäller på GitHub, dvs molnet och inte lokalt) Man requestar att ens ändringar mergeas med huvudbranchen och det delade repot uppdateras med ändringarna. 
+
 - *Branches* Man kan säga att en branch är en snapshot eller en kopia av koden. Ett ställe där man kan göra sina ändringar eller sin feature utan risk att skada "grundkoden". En egen liten sandlåda helt enkelt.
-- *Merge*  är när man slår ihop två branches. Exempelvis Feature-Login med main. Merge kan användas både på Remote (GitHub) och lokalt på din egen dator. 
+
+- *Merge*  är när man slår ihop två branches. Exempelvis **_Feature-Login_** med **_main_**. Merge kan användas både på Remote (GitHub) och lokalt på din egen dator. Detta görs dock bara när man är färdig med sin kod. 
